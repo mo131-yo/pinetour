@@ -1,0 +1,572 @@
+.bairlal {
+  width: 1440px;
+  height: 773px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  position: fixed;
+  width: 100px;
+  height: 34px;
+  /* opacity: 1; */
+  background: url("./logo.png");
+  background-position: center;
+  background-size: cover;
+}
+.nuur-zurag {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./hero.png");
+  background-position: center;
+  background-size: cover;
+}
+.pure {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 80px;
+  opacity: 0.4;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.awaits {
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-size: 250px;
+  letter-spacing: 0%;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.on {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 64px;
+  opacity: 0.7;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.background {
+  width: 1440px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("./frame.png");
+  background-position: center;
+  background-size: cover;
+  gap: 40px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.terhiin-nuur {
+  width: 275.49px;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 37px;
+  color: white;
+  background-image: url("./terhiin-nuur.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46);
+}
+.hiid {
+  width: 275.49px;
+  height: 370px;
+  font-size: 37px;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-image: url("./hiid.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46);
+}
+.huvsgul {
+  width: 275.49px;
+  height: 370px;
+  font-size: 37px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./huvsgul.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46);
+}
+.horgiin-togoo {
+  width: 275.49px;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 37px;
+  color: white;
+  background-image: url("./horgiin-togoo.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46);
+}
+.map {
+  width: 100%;
+  height: 1132px;
+  background-image: url("./map.png");
+  background-position: center;
+  background-size: cover;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* padding-top: 100px; */
+}
+.q {
+  width: 1440px;
+  height: 204px;
+  position: relative;
+  top: 100px;
+  bottom: 20px;
+  left: 1px;
+}
+/* .sambar {
+  width: 1440px;
+  height: 204px;
+  position: relative;
+  left: 1px;
+  border: 2px solid black;
+}
+.songoltuud {
+  width: 1200px;
+  height: 640px;
+  border: 2px solid black;
+  justify-content: space-between;
+  position: relative;
+  top: 264px;
+  left: 120px;
+} */
+.tom-garchig {
+  display: flex;
+  justify-content: center;
+  font-size: 42px;
+  font-family: Inter;
+  letter-spacing: 0%;
+  color: black;
+}
+.min-garchig {
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+  letter-spacing: 0%;
+  font-size: 20px;
+  color: black;
+}
+.a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(238, 233, 217, 1);
+  width: 513px;
+  height: 112px;
+  border: 4px solid white;
+  border-radius: 120px;
+  padding: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.ug-1 {
+  display: flex;
+  width: 70;
+  height: 15;
+  gap: 12px;
+}
+.talbai-1 {
+  font-size: 24px;
+}
+.ub {
+  font-size: 12px;
+}
+.har-hadaas {
+  width: 14px;
+  height: 14px;
+  background-image: url("./har-hadaas.png");
+  background-position: center;
+  background-size: cover;
+}
+.day1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 180px;
+  font-size: 14px;
+  width: 52px;
+  height: 52px;
+}
+.huree-2 {
+  display: flex;
+}
+.a-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(139, 184, 193, 0.8);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  padding: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.ug-2 {
+  display: flex;
+  width: 70;
+  height: 15;
+  gap: 12px;
+}
+.talbai-2 {
+  font-size: 24px;
+}
+.har-hadaas-2 {
+  width: 14px;
+  height: 14px;
+  background-image: url("./har-hadaas.png");
+  background-position: center;
+  background-size: cover;
+}
+.aimag {
+  font-size: 12px;
+}
+.day2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 180px;
+  width: 52px;
+  height: 52px;
+  font-size: 14px;
+}
+.huree-3 {
+  display: flex;
+}
+.a-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(170, 216, 215, 0.8);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  padding: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.aimag-1 {
+  font-size: 24px;
+}
+.ug-3 {
+  display: flex;
+  width: 70;
+  height: 15;
+  gap: 12px;
+}
+.har-hadaas-3 {
+  width: 14px;
+  height: 14px;
+  background: url("./har-hadaas.png");
+  background-position: center;
+  background-size: cover;
+}
+.arkhangai {
+  font-size: 12px;
+}
+.day3 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 180px;
+  width: 52px;
+  height: 52px;
+  font-size: 14px;
+}
+.huree-4 {
+  display: flex;
+}
+.a-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(139, 192, 189, 0.8);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  padding: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.aimag-2 {
+  font-size: 24px;
+}
+.ug-4 {
+  display: flex;
+  width: 70;
+  height: 15;
+  gap: 12px;
+}
+.har-hadaas-4 {
+  width: 14px;
+  height: 14px;
+  background: url("./har-hadaas.png");
+  background-position: center;
+  background-size: cover;
+}
+.arkhangai-1 {
+  font-size: 12px;
+}
+.day4 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 180px;
+  width: 52px;
+  height: 52px;
+  font-size: 14px;
+}
+.huree-5 {
+  display: flex;
+}
+.a-5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(151, 204, 224, 0.8);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  padding: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.aimag-3 {
+  font-size: 24px;
+}
+.har-hadaas-5 {
+  width: 14px;
+  height: 14px;
+  background: url("./har-hadaas.png");
+  background-position: center;
+  background-size: cover;
+}
+.lake {
+  font-size: 12px;
+}
+.day5 {
+  background-color: white;
+  width: 52px;
+  height: 52px;
+  font: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 180px;
+}
+.ug-5 {
+  display: flex;
+  width: 70;
+  height: 15;
+  gap: 12px;
+}
+.pay {
+  width: 100%;
+  height: 1120px;
+  background: url("./background.png");
+  background-position: center;
+  background-size: cover;
+}
+.hoyr-garchig {
+  width: 1440px;
+  height: 85px;
+  position: relative;
+  top: 40px;
+  gap: 10px;
+}
+.big {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+}
+.small {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: capitalize;
+}
+.angilal-zui {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.price1 {
+  background-color: white;
+  border-radius: 30px;
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+  padding: 0px;
+}
+.zurh1 {
+  width: 36px;
+  height: 36px;
+  background: url("./zurh.png");
+  background-position: center;
+  background-size: cover;
+  /* padding-top: 30px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+  padding-left: 60px; */
+}
+.header1 {
+  font-size: 18px;
+}
+.head1 {
+  width: 384px;
+  height: 92px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding-top: spacing/8;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  border-bottom-width: 1px;
+  gap: 16px;
+}
+.content1 {
+  width: 384px;
+  height: 435px;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 30px;
+  padding-right: 60px;
+  padding-bottom: 20px;
+  padding-left: 60px; */
+}
+.small-board1 {
+  padding-left: 24px;
+}
+.title-1 {
+  display: flex;
+  font-size: 40px;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.title-2 {
+  font-size: 16px;
+  display: flex;
+}
+.in {
+  flex-flow: wrap;
+  /* border: 2px solid black; */
+}
+.includes {
+  font-size: 18px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  /* left: 30px;
+  top: 30px; */
+  width: 256px;
+  height: 22px;
+}
+.pp {
+  display: flex;
+  justify-content: space-around;
+}
+.button {
+  background-color: rgba(164, 209, 226, 1);
+  width: 336px;
+  height: 48px;
+  border-radius: 9999px;
+  position: relative;
+}
+.title-2 {
+  font-size: 16px;
+}
+.hadaas {
+  background: url("./ion");
+  width: 34px;
+  height: 34px;
+}
+.price2 {
+  display: flex;
+}
+.tom-tsagaan2 {
+  background-color: white;
+  width: 384px;
+  height: 527px;
+  opacity: 1;
+  border-radius: 40px;
+  padding: 0px;
+}
+.ahha {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  width: 384px;
+  height: 92px;
+  padding-top: spacing/8;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  border-bottom-width: 1px;
+  gap: 16px;
+}
+.zurh2 {
+  background: url("./zurh.png");
+  background-position: center;
+  background-size: cover;
+  width: 36px;
+  height: 36px;
+  opacity: 1;
+  /* border-radius: Round; */
+  /* border-width: 1px; */
+}
+.header2 {
+  font-size: 18px;
+}
