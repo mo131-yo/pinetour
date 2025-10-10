@@ -2,7 +2,14 @@
   width: 1440px;
   height: 1024px;
   border: 2px solid black;
+  flex-wrap: wrap;
   background-color: rgba(63, 0, 101, 1);
+}
+.ehnii-tal-heseg {
+  display: flex;
+  position: relative;
+  top: 0;
+  bottom: 0;
 }
 .tom-garchig {
   border: 2px solid aqua;
@@ -11,8 +18,7 @@
   position: relative;
   top: 63px;
   left: 64px;
-  display: flex;
-  justify-content: space-between;
+  align-content: left;
   align-items: center;
   font-family: "Hanuman", serif;
   font-optical-sizing: auto;
@@ -22,9 +28,6 @@
   font-weight: 700;
   font-style: bold;
   color: white;
-}
-.cool {
-  color: purple;
 }
 .utas-email-hayg {
   width: 451px;
@@ -52,8 +55,6 @@
   height: 78px;
   display: flex;
   gap: 16px;
-  flex-direction: row;
-  justify-content: baseline;
   padding: 24px;
 }
 .utasnii-icon {
@@ -79,18 +80,64 @@
 }
 
 .medeelliin-bulan {
-  width: 228px;
-  height: 64px;
-  top: 916px;
-  left: 88px;
-  z-index: 1px;
-  background-color: rgba(238, 238, 238, 1);
+  position: absolute;
+  width: 715px;
+  height: 896px;
+  top: 64px;
+  left: 659px;
+  border: 2px solid black;
+  background-color: #fff;
   border-radius: 24px;
 }
-.a {
+.web-1 {
   border: 2px solid black;
   width: 190px;
   height: 62px;
   font-size: 20px;
   font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+.other {
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 89px;
+  height: 62px;
+}
+.system {
+  width: 182px;
+  height: 62px;
+  border-radius: 8px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.i-am {
+  font: 20px;
+  font-weight: 500;
+  color: black;
+  font-weight: 500;
+  display: flex;
+}
+.deed-heseg {
+  position: relative;
+  top: 48px;
+  left: 48px;
+  background-color: aqua;
+  width: 604px;
+  border: 2px solid black;
+  height: 194px;
+}
+.aa {
+  display: flex;
+  justify-content: space-around;
+  gap: 12px;
+  top: 20px;
+  flex-flow: wrap;
 }
