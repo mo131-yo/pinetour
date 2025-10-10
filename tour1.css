@@ -15,8 +15,6 @@
   justify-content: space-around;
   align-items: center;
   padding-top: 30px;
-  /* gap: 10px;
-  position: fixed; */
   left: 40px;
   top: 20px;
 }
@@ -182,7 +180,6 @@
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-  /* padding-top: 100px; */
 }
 .q {
   width: 1440px;
@@ -544,6 +541,14 @@
   height: 22px;
   gap: 10px;
 }
+.min-title {
+  padding-bottom: 15px;
+}
+.check-1 {
+  height: 11px;
+  width: 14px;
+  padding-right: 10px;
+}
 .button {
   background-color: rgba(164, 209, 226, 1);
   width: 336px;
@@ -559,30 +564,253 @@
   height: 34px;
 }
 .price2 {
-  display: flex;
   background-color: white;
   border-radius: 30px;
   width: 384px;
   height: 527px;
   border-radius: 40px;
-  padding: 0px;
-}
-.tom-tsagaan2 {
-  background-color: white;
-  width: 384px;
-  height: 527px;
-  opacity: 1;
-  border-radius: 40px;
-  padding: 0px;
 }
 .zurh2 {
   background: url("./zurh.png");
   width: 36px;
   height: 36px;
   opacity: 1;
-  /* border-radius: Round; */
-  /* border-width: 1px; */
 }
 .header2 {
   font-size: 18px;
+}
+.head2 {
+  width: 384px;
+  height: 92px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding-top: spacing/8;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  border-bottom-width: 1px;
+  gap: 16px;
+}
+.content2 {
+  width: 384px;
+  height: 435px;
+  justify-content: center;
+  align-items: space-around;
+}
+.small-board2 {
+  padding-left: 24px;
+}
+.title-2 {
+  display: flex;
+  font-size: 40px;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.title-3 {
+  font-size: 16px;
+}
+.in1 {
+  width: 336px;
+  height: 190px;
+  padding-bottom: 10px;
+}
+.includes1 {
+  font-size: 18px;
+  width: 256px;
+  height: 22px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+}
+.min-title1 {
+  padding-bottom: 15px;
+}
+.check-2 {
+  height: 11px;
+  width: 14px;
+  padding-right: 10px;
+}
+.button1 {
+  background-color: rgba(164, 209, 226, 1);
+  width: 336px;
+  height: 48px;
+  border-radius: 9999px;
+}
+.uniin-songolt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  top: 180px;
+  left: 20px;
+  right: 40px;
+}
+.price3 {
+  background-color: white;
+  border-radius: 30px;
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+}
+.zurh3 {
+  width: 36px;
+  height: 36px;
+  background: url("./zurh.png");
+  background-position: center;
+  background-size: cover;
+}
+.header3 {
+  font-size: 18px;
+}
+.head3 {
+  width: 384px;
+  height: 92px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding-top: spacing/8;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  border-bottom-width: 1px;
+  gap: 16px;
+}
+.content3 {
+  width: 384px;
+  height: 435px;
+  justify-content: center;
+  align-items: space-around;
+}
+.small-board3 {
+  padding-left: 24px;
+}
+.title-3 {
+  display: flex;
+  font-size: 40px;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.title-4 {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+.in2 {
+  width: 336px;
+  height: 190px;
+  padding-bottom: 10px;
+}
+.includes2 {
+  font-size: 18px;
+  width: 256px;
+  height: 22px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+}
+.min-title2 {
+  padding-bottom: 15px;
+}
+.check-3 {
+  height: 11px;
+  width: 14px;
+  padding-right: 10px;
+}
+.button2 {
+  background-color: rgba(164, 209, 226, 1);
+  width: 336px;
+  height: 48px;
+  border-radius: 9999px;
+}
+.dood-tal {
+  background-color: aqua;
+  width: 1440;
+  height: 204;
+  gap: 10px;
+  top: 916px;
+  border-top-width: 1px;
+  padding-top: 80px;
+  padding-right: 120px;
+  padding-bottom: 80px;
+  padding-left: 120px;
+  display: flex;
+  align-content: flex-end;
+}
+.iconuud {
+  width: 100%;
+  height: 100px;
+}
+.fb {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(32, 32, 143);
+  background-color: white;
+  border-radius: 999px;
+  width: 180px;
+  height: 60px;
+  font-size: 20px;
+}
+.ig {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(165, 29, 140);
+}
+.ub-icons {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  display: none;
+  top: 300px;
+  left: 700px;
+  border-radius: 999px;
+}
+.blue-icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+}
+.ail {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  display: none;
+  left: 623px;
+  top: 0px;
+  border-radius: 999px;
+}
+.nuur-icon {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  display: none;
+  left: 900px;
+  top: 0px;
+}
+
+.sambar {
+  position: relative;
+}
+
+.a:hover ~ .ub-icons {
+  display: block;
+}
+
+.huree-2 {
+  position: relative;
+}
+.huree-2:hover ~ .ail {
+  display: block;
+}
+.huree-5:hover ~ .nuur-icon {
+  display: block;
+}
+.huree-5 {
+  position: relative;
 }

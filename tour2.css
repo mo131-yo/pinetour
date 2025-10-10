@@ -1,0 +1,1631 @@
+.bairlal {
+  width: 1440px;
+  height: 773px;
+  margin: 0 auto;
+}
+.bairlal {
+  width: 1440px;
+  height: 773px;
+  margin: 0 auto;
+}
+.daguul {
+  position: fixed;
+  width: 1440px;
+  height: 100px;
+}
+.daguul-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  left: 40px;
+  top: 20px;
+}
+.vector {
+  height: 15px;
+  width: 11.67px;
+}
+.gg {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 392px;
+  height: 22px;
+  font-size: 18px;
+  gap: 24px;
+}
+.logo {
+  width: 100px;
+  height: 34px;
+  color: white;
+  background: url("./logo.png");
+  background-position: center;
+  background-size: cover;
+}
+.english {
+  color: black;
+  display: flex;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 50%;
+  gap: 24px;
+}
+.nuur-zurag {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./hero\ \(1\).png");
+  background-position: center;
+  background-size: cover;
+}
+.pure {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 80px;
+  opacity: 0.4;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.awaits {
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-size: 250px;
+  letter-spacing: 0%;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.on {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 64px;
+  opacity: 0.7;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.background {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("./frame.png");
+  background-position: center;
+  background-size: cover;
+  gap: 40px;
+  text-align: center;
+  font-family: Bebas Neue;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 37px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: uppercase;
+}
+.terhiin-nuur {
+  width: 275.49px;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 37px;
+  color: white;
+  background-image: url("./terhiin-nuur.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46);
+}
+.hiid {
+  width: 275.49px;
+  height: 370px;
+  font-size: 37px;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-image: url("./hiid.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46);
+}
+.huvsgul {
+  width: 275.49px;
+  height: 370px;
+  font-size: 37px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./huvsgul.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46);
+}
+.horgiin-togoo {
+  width: 275.49px;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 37px;
+  color: white;
+  background-image: url("./horgiin-togoo.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46);
+}
+.map {
+  width: 100%;
+  height: 1132px;
+  background-image: url("./map.png");
+  background-position: center;
+  background-size: cover;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* padding-top: 100px; */
+}
+.q {
+  width: 1440px;
+  height: 204px;
+  position: relative;
+  top: 100px;
+  bottom: 20px;
+  left: 1px;
+  font-weight: 400;
+  font-style: Regular;
+}
+.tom-garchig {
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  letter-spacing: 0%;
+  font-size: 40px;
+  color: black;
+}
+.min-garchig {
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+  letter-spacing: 0%;
+  font-size: 20px;
+  color: black;
+}
+.a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(238, 233, 217, 1);
+  width: 513px;
+  height: 112px;
+  border: 4px solid white;
+  border-radius: 120px;
+  padding: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.ug-1 {
+  display: flex;
+  width: 70;
+  height: 15;
+  gap: 12px;
+}
+.talbai-1 {
+  font-size: 24px;
+}
+.ub {
+  font-size: 12px;
+}
+.har-hadaas {
+  width: 14px;
+  height: 14px;
+  background-image: url("./har-hadaas.png");
+  background-position: center;
+  background-size: cover;
+}
+.day1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 180px;
+  font-size: 14px;
+  width: 52px;
+  height: 52px;
+}
+.blue-icon {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+}
+.ub-icons {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  opacity: 1;
+  left: 1103px;
+  border-radius: 999px;
+}
+.ail {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  opacity: 1;
+  left: 603px;
+  border-radius: 999px;
+}
+.nuur-icon {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  opacity: 1;
+  left: 803px;
+  border-radius: 999px;
+}
+.icon11 {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  opacity: 1;
+  left: 803px;
+  border-radius: 999px;
+}
+.n1 {
+  width: 245px;
+  height: 245px;
+  border-radius: 1000px;
+  motion-rotation: left 5deg;
+  position: absolute;
+  left: 700px;
+}
+.n:hover .huree-3 {
+  display: block;
+  position: absolute;
+  opacity: 1;
+  transform: rotate(0 0 0 3deg);
+}
+.huree-2 {
+  display: flex;
+}
+.a-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(139, 184, 193, 0.8);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  padding: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.ug-2 {
+  display: flex;
+  width: 70;
+  height: 15;
+  gap: 12px;
+}
+.talbai-2 {
+  font-size: 24px;
+}
+.har-hadaas-2 {
+  width: 14px;
+  height: 14px;
+  background-image: url("./har-hadaas.png");
+  background-position: center;
+  background-size: cover;
+}
+.aimag {
+  font-size: 12px;
+}
+.day2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 180px;
+  width: 52px;
+  height: 52px;
+  font-size: 14px;
+}
+.huree-3 {
+  display: flex;
+}
+.a-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(170, 216, 215, 0.8);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  padding: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.aimag-1 {
+  font-size: 24px;
+}
+.ug-3 {
+  display: flex;
+  width: 70;
+  height: 15;
+  gap: 12px;
+}
+.har-hadaas-3 {
+  width: 14px;
+  height: 14px;
+  background: url("./har-hadaas.png");
+  background-position: center;
+  background-size: cover;
+}
+.arkhangai {
+  font-size: 12px;
+}
+.day3 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 180px;
+  width: 52px;
+  height: 52px;
+  font-size: 14px;
+}
+.huree-4 {
+  display: flex;
+}
+.a-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(139, 192, 189, 0.8);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  padding: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.aimag-2 {
+  font-size: 24px;
+}
+.ug-4 {
+  display: flex;
+  width: 70;
+  height: 15;
+  gap: 12px;
+}
+.har-hadaas-4 {
+  width: 14px;
+  height: 14px;
+  background: url("./har-hadaas.png");
+  background-position: center;
+  background-size: cover;
+}
+.arkhangai-1 {
+  font-size: 12px;
+}
+.day4 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 180px;
+  width: 52px;
+  height: 52px;
+  font-size: 14px;
+}
+.huree-5 {
+  display: flex;
+}
+.a-5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(151, 204, 224, 0.8);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  padding: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.aimag-3 {
+  font-size: 24px;
+}
+.har-hadaas-5 {
+  width: 14px;
+  height: 14px;
+  background: url("./har-hadaas.png");
+  background-position: center;
+  background-size: cover;
+}
+.lake {
+  font-size: 12px;
+}
+.day5 {
+  background-color: white;
+  width: 52px;
+  height: 52px;
+  font: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 180px;
+}
+.ug-5 {
+  display: flex;
+  width: 70;
+  height: 15;
+  gap: 12px;
+}
+.payback {
+  width: 100%;
+  height: 1120px;
+  background: url("./background.png");
+  background-position: center;
+  background-size: cover;
+}
+.hoyr-garchig {
+  width: 1440px;
+  height: 85px;
+  position: relative;
+  top: 100px;
+  gap: 20px;
+}
+.big {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+}
+.small {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: capitalize;
+  position: relative;
+  top: 10px;
+}
+.angilal-zui {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.price1 {
+  background-color: white;
+  border-radius: 30px;
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+}
+.zurh1 {
+  width: 36px;
+  height: 36px;
+  background: url("./zurh.png");
+  background-position: center;
+  background-size: cover;
+}
+.header1 {
+  font-size: 18px;
+}
+.head1 {
+  width: 384px;
+  height: 92px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding-top: spacing/8;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  border-bottom-width: 1px;
+  gap: 16px;
+}
+.content1 {
+  width: 384px;
+  height: 435px;
+  justify-content: center;
+  align-items: space-around;
+}
+.small-board1 {
+  padding-left: 24px;
+}
+.title-1 {
+  display: flex;
+  font-size: 40px;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.title-2 {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+.in {
+  width: 336px;
+  height: 190px;
+  padding-bottom: 10px;
+}
+.includes {
+  font-size: 18px;
+  width: 256px;
+  height: 22px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+}
+.min-title {
+  padding-bottom: 15px;
+}
+.check-1 {
+  height: 11px;
+  width: 14px;
+  padding-right: 10px;
+}
+.button {
+  background-color: rgba(164, 209, 226, 1);
+  width: 336px;
+  height: 48px;
+  border-radius: 9999px;
+}
+.price2 {
+  background-color: white;
+  border-radius: 30px;
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+}
+.zurh2 {
+  width: 36px;
+  height: 36px;
+  background: url("./zurh.png");
+  background-position: center;
+  background-size: cover;
+}
+.header2 {
+  font-size: 18px;
+}
+.head2 {
+  width: 384px;
+  height: 92px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding-top: spacing/8;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  border-bottom-width: 1px;
+  gap: 16px;
+}
+.content2 {
+  width: 384px;
+  height: 435px;
+  justify-content: center;
+  align-items: space-around;
+}
+.small-board2 {
+  padding-left: 24px;
+}
+.title-2 {
+  display: flex;
+  font-size: 40px;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.title-3 {
+  font-size: 16px;
+}
+.in1 {
+  width: 336px;
+  height: 190px;
+  padding-bottom: 10px;
+}
+.includes1 {
+  font-size: 18px;
+  width: 256px;
+  height: 22px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+}
+.min-title1 {
+  padding-bottom: 15px;
+}
+.check-2 {
+  height: 11px;
+  width: 14px;
+  padding-right: 10px;
+}
+.button1 {
+  background-color: rgba(164, 209, 226, 1);
+  width: 336px;
+  height: 48px;
+  border-radius: 9999px;
+}
+.uniin-songolt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  top: 180px;
+  left: 20px;
+  right: 40px;
+}
+.price3 {
+  background-color: white;
+  border-radius: 30px;
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+}
+.zurh3 {
+  width: 36px;
+  height: 36px;
+  background: url("./zurh.png");
+  background-position: center;
+  background-size: cover;
+}
+.header3 {
+  font-size: 18px;
+}
+.head3 {
+  width: 384px;
+  height: 92px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding-top: spacing/8;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  border-bottom-width: 1px;
+  gap: 16px;
+}
+.content3 {
+  width: 384px;
+  height: 435px;
+  justify-content: center;
+  align-items: space-around;
+}
+.small-board3 {
+  padding-left: 24px;
+}
+.title-3 {
+  display: flex;
+  font-size: 40px;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.title-4 {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+.in2 {
+  width: 336px;
+  height: 190px;
+  padding-bottom: 10px;
+}
+.includes2 {
+  font-size: 18px;
+  width: 256px;
+  height: 22px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+}
+.min-title2 {
+  padding-bottom: 15px;
+}
+.check-3 {
+  height: 11px;
+  width: 14px;
+  padding-right: 10px;
+}
+.button2 {
+  background-color: rgba(164, 209, 226, 1);
+  width: 336px;
+  height: 48px;
+  border-radius: 9999px;
+}
+.dood-tal {
+  background-color: aqua;
+  width: 1440;
+  height: 204;
+  gap: 10px;
+  top: 916px;
+  border-top-width: 1px;
+  padding-top: 80px;
+  padding-right: 120px;
+  padding-bottom: 80px;
+  padding-left: 120px;
+  display: flex;
+  align-content: flex-end;
+}
+.iconuud {
+  width: 100%;
+  height: 100px;
+}
+.fb {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(32, 32, 143);
+  background-color: white;
+  border-radius: 999px;
+  width: 180px;
+  height: 60px;
+  font-size: 20px;
+}
+.ig {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(32, 32, 143);
+  background-color: white;
+  border-radius: 999px;
+  width: 180px;
+  height: 60px;
+  font-size: 20px;
+}
+.iconssd {
+  width: 10px;
+  height: 10px;
+}
+.price2:hover {
+  display: block;
+  filter: drop-shadow (8px 8px 0 0 rgba(58, 113, 132, 0.305));
+  /* filter: drop-shadow(-8px -8px 0 0 rgba(40, 59, 71, 0.46)); */
+}
+.price3:hover::after {
+  display: block;
+  filter: drop-shadow(8px 8px 0 0 rgb(71, 13, 13));
+}
+o .bairlal {
+  width: 1440px;
+  height: 773px;
+  margin: 0 auto;
+}
+.daguul {
+  position: fixed;
+  width: 1440px;
+  height: 100px;
+}
+.daguul-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 30px;
+  left: 40px;
+  top: 20px;
+}
+.vector {
+  height: 15px;
+  width: 11.67px;
+}
+.gg {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 392px;
+  height: 22px;
+  font-size: 18px;
+  gap: 24px;
+}
+.logo {
+  width: 100px;
+  height: 34px;
+  color: white;
+  background: url("./logo.png");
+  background-position: center;
+  background-size: cover;
+}
+.english {
+  color: black;
+  display: flex;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 50%;
+  gap: 24px;
+}
+.nuur-zurag {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./hero\ \(1\).png");
+  background-position: center;
+  background-size: cover;
+}
+.pure {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 80px;
+  opacity: 0.4;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.awaits {
+  justify-content: center;
+  display: flex;
+  color: white;
+  font-size: 250px;
+  letter-spacing: 0%;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.on {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 64px;
+  opacity: 0.7;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.background {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-image: url("./frame.png");
+  background-position: center;
+  background-size: cover;
+  gap: 40px;
+  text-align: center;
+  font-family: Bebas Neue;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 37px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: uppercase;
+}
+.terhiin-nuur {
+  width: 275.49px;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 37px;
+  color: white;
+  background-image: url("./terhiin-nuur.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46);
+}
+.hiid {
+  width: 275.49px;
+  height: 370px;
+  font-size: 37px;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-image: url("./hiid.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46);
+}
+.huvsgul {
+  width: 275.49px;
+  height: 370px;
+  font-size: 37px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./huvsgul.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46);
+}
+.horgiin-togoo {
+  width: 275.49px;
+  height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 37px;
+  color: white;
+  background-image: url("./horgiin-togoo.png");
+  background-position: center;
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0 0 rgba(41, 114, 139, 0.25);
+  box-shadow: -8px -8px 0 0 rgba(31, 114, 170, 0.46);
+}
+.map {
+  width: 100%;
+  height: 1132px;
+  background-image: url("./map.png");
+  background-position: center;
+  background-size: cover;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  /* padding-top: 100px; */
+}
+.q {
+  width: 1440px;
+  height: 204px;
+  position: relative;
+  top: 100px;
+  bottom: 20px;
+  left: 1px;
+  font-weight: 400;
+  font-style: Regular;
+}
+.tom-garchig {
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  letter-spacing: 0%;
+  font-size: 40px;
+  color: black;
+}
+.min-garchig {
+  display: flex;
+  justify-content: center;
+  font-family: Inter;
+  letter-spacing: 0%;
+  font-size: 20px;
+  color: black;
+}
+.a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(238, 233, 217, 1);
+  width: 513px;
+  height: 112px;
+  border: 4px solid white;
+  border-radius: 120px;
+  padding: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.ug-1 {
+  display: flex;
+  width: 70;
+  height: 15;
+  gap: 12px;
+}
+.talbai-1 {
+  font-size: 24px;
+}
+.ub {
+  font-size: 12px;
+}
+.har-hadaas {
+  width: 14px;
+  height: 14px;
+  background-image: url("./har-hadaas.png");
+  background-position: center;
+  background-size: cover;
+}
+.day1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 180px;
+  font-size: 14px;
+  width: 52px;
+  height: 52px;
+}
+.blue-icon {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+}
+.ub-icons {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  opacity: 1;
+  left: 1103px;
+  border-radius: 999px;
+}
+.ail {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  opacity: 1;
+  left: 603px;
+  border-radius: 999px;
+}
+.nuur-icon {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  opacity: 1;
+  left: 803px;
+  border-radius: 999px;
+}
+.icon11 {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  opacity: 1;
+  left: 803px;
+  border-radius: 999px;
+}
+.n1 {
+  width: 245px;
+  height: 245px;
+  border-radius: 1000px;
+  motion-rotation: left 5deg;
+  position: absolute;
+  left: 700px;
+}
+.n:hover .huree-3 {
+  display: block;
+  position: absolute;
+  opacity: 1;
+  transform: rotate(0 0 0 3deg);
+}
+.huree-2 {
+  display: flex;
+}
+.a-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(139, 184, 193, 0.8);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  padding: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.ug-2 {
+  display: flex;
+  width: 70;
+  height: 15;
+  gap: 12px;
+}
+.talbai-2 {
+  font-size: 24px;
+}
+.har-hadaas-2 {
+  width: 14px;
+  height: 14px;
+  background-image: url("./har-hadaas.png");
+  background-position: center;
+  background-size: cover;
+}
+.aimag {
+  font-size: 12px;
+}
+.day2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 180px;
+  width: 52px;
+  height: 52px;
+  font-size: 14px;
+}
+.huree-3 {
+  display: flex;
+}
+.a-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(170, 216, 215, 0.8);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  padding: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.aimag-1 {
+  font-size: 24px;
+}
+.ug-3 {
+  display: flex;
+  width: 70;
+  height: 15;
+  gap: 12px;
+}
+.har-hadaas-3 {
+  width: 14px;
+  height: 14px;
+  background: url("./har-hadaas.png");
+  background-position: center;
+  background-size: cover;
+}
+.arkhangai {
+  font-size: 12px;
+}
+.day3 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 180px;
+  width: 52px;
+  height: 52px;
+  font-size: 14px;
+}
+.huree-4 {
+  display: flex;
+}
+.a-4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(139, 192, 189, 0.8);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  padding: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.aimag-2 {
+  font-size: 24px;
+}
+.ug-4 {
+  display: flex;
+  width: 70;
+  height: 15;
+  gap: 12px;
+}
+.har-hadaas-4 {
+  width: 14px;
+  height: 14px;
+  background: url("./har-hadaas.png");
+  background-position: center;
+  background-size: cover;
+}
+.arkhangai-1 {
+  font-size: 12px;
+}
+.day4 {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 180px;
+  width: 52px;
+  height: 52px;
+  font-size: 14px;
+}
+.huree-5 {
+  display: flex;
+}
+.a-5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(151, 204, 224, 0.8);
+  width: 513px;
+  height: 112px;
+  border-radius: 120px;
+  padding: 30px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.aimag-3 {
+  font-size: 24px;
+}
+.har-hadaas-5 {
+  width: 14px;
+  height: 14px;
+  background: url("./har-hadaas.png");
+  background-position: center;
+  background-size: cover;
+}
+.lake {
+  font-size: 12px;
+}
+.day5 {
+  background-color: white;
+  width: 52px;
+  height: 52px;
+  font: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 180px;
+}
+.ug-5 {
+  display: flex;
+  width: 70;
+  height: 15;
+  gap: 12px;
+}
+.payback {
+  width: 100%;
+  height: 1120px;
+  background: url("./back.png");
+  background-position: center;
+  background-size: cover;
+}
+.hoyr-garchig {
+  width: 1440px;
+  height: 85px;
+  position: relative;
+  top: 100px;
+  gap: 20px;
+}
+.big {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+}
+.small {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: bottom;
+  text-transform: capitalize;
+  position: relative;
+  top: 10px;
+}
+.angilal-zui {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.price1 {
+  background-color: white;
+  border-radius: 30px;
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+}
+.zurh1 {
+  width: 36px;
+  height: 36px;
+  background: url("./zurh.png");
+  background-position: center;
+  background-size: cover;
+}
+.header1 {
+  font-size: 18px;
+}
+.head1 {
+  width: 384px;
+  height: 92px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding-top: spacing/8;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  border-bottom-width: 1px;
+  gap: 16px;
+}
+.content1 {
+  width: 384px;
+  height: 435px;
+  justify-content: center;
+  align-items: space-around;
+}
+.small-board1 {
+  padding-left: 24px;
+}
+.title-1 {
+  display: flex;
+  font-size: 40px;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.title-2 {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+.in {
+  width: 336px;
+  height: 190px;
+  padding-bottom: 10px;
+}
+.includes {
+  font-size: 18px;
+  width: 256px;
+  height: 22px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+}
+.min-title {
+  padding-bottom: 15px;
+}
+.check-1 {
+  height: 11px;
+  width: 14px;
+  padding-right: 10px;
+}
+.button {
+  background-color: rgba(164, 209, 226, 1);
+  width: 336px;
+  height: 48px;
+  border-radius: 9999px;
+}
+.price2 {
+  background-color: white;
+  border-radius: 30px;
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+}
+.zurh2 {
+  width: 36px;
+  height: 36px;
+  background: url("./zurh.png");
+  background-position: center;
+  background-size: cover;
+}
+.header2 {
+  font-size: 18px;
+}
+.head2 {
+  width: 384px;
+  height: 92px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding-top: spacing/8;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  border-bottom-width: 1px;
+  gap: 16px;
+}
+.content2 {
+  width: 384px;
+  height: 435px;
+  justify-content: center;
+  align-items: space-around;
+}
+.small-board2 {
+  padding-left: 24px;
+}
+.title-2 {
+  display: flex;
+  font-size: 40px;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.title-3 {
+  font-size: 16px;
+}
+.in1 {
+  width: 336px;
+  height: 190px;
+  padding-bottom: 10px;
+}
+.includes1 {
+  font-size: 18px;
+  width: 256px;
+  height: 22px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+}
+.min-title1 {
+  padding-bottom: 15px;
+}
+.check-2 {
+  height: 11px;
+  width: 14px;
+  padding-right: 10px;
+}
+.button1 {
+  background-color: rgba(164, 209, 226, 1);
+  width: 336px;
+  height: 48px;
+  border-radius: 9999px;
+}
+.uniin-songolt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  top: 180px;
+  left: 20px;
+  right: 40px;
+}
+.price3 {
+  background-color: white;
+  border-radius: 30px;
+  width: 384px;
+  height: 527px;
+  border-radius: 40px;
+}
+.zurh3 {
+  width: 36px;
+  height: 36px;
+  background: url("./zurh.png");
+  background-position: center;
+  background-size: cover;
+}
+.header3 {
+  font-size: 18px;
+}
+.head3 {
+  width: 384px;
+  height: 92px;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  padding-top: spacing/8;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
+  border-bottom-width: 1px;
+  gap: 16px;
+}
+.content3 {
+  width: 384px;
+  height: 435px;
+  justify-content: center;
+  align-items: space-around;
+}
+.small-board3 {
+  padding-left: 24px;
+}
+.title-3 {
+  display: flex;
+  font-size: 40px;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.title-4 {
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+.in2 {
+  width: 336px;
+  height: 190px;
+  padding-bottom: 10px;
+}
+.includes2 {
+  font-size: 18px;
+  width: 256px;
+  height: 22px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 15px;
+}
+.min-title2 {
+  padding-bottom: 15px;
+}
+.check-3 {
+  height: 11px;
+  width: 14px;
+  padding-right: 10px;
+}
+.button2 {
+  background-color: rgba(164, 209, 226, 1);
+  width: 336px;
+  height: 48px;
+  border-radius: 9999px;
+}
+.dood-tal {
+  background-color: aqua;
+  width: 1440;
+  height: 204;
+  gap: 10px;
+  top: 916px;
+  border-top-width: 1px;
+  padding-top: 80px;
+  padding-right: 120px;
+  padding-bottom: 80px;
+  padding-left: 120px;
+  display: flex;
+  align-content: flex-end;
+}
+.iconuud {
+  width: 100%;
+  height: 100px;
+}
+.fb {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(32, 32, 143);
+  background-color: white;
+  border-radius: 999px;
+  width: 180px;
+  height: 60px;
+  font-size: 20px;
+}
+.ig {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(165, 29, 140);
+}
