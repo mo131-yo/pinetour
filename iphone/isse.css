@@ -147,7 +147,20 @@ nav {
   gap: 10px;
   flex-wrap: wrap;
 }
+.dual {
+  display: flex;
+  justify-content: center;
+}
+.apple-tom-icon {
+  background: url("./Vector\ \(6\).png");
+  width: 26px;
+  height: 32px;
+}
+.classic {
+  font-size: 24px;
+}
 .air-pod {
+  background: url("./ff948cacd279c7a6da7b42f7259842d3eef7e869.jpg");
   background-position: center;
   background-size: cover;
   width: 962px;
@@ -155,6 +168,7 @@ nav {
   position: relative;
 }
 .tsag {
+  background: url("./tsag.jpg");
   background-position: center;
   background-size: cover;
   width: 962px;
@@ -174,7 +188,13 @@ nav {
   width: 962px;
   height: 580px;
 }
+.qq1 {
+  display: flex;
+}
 .pre {
+  display: flex;
+}
+.aa1 {
   display: flex;
 }
 .tablet {
@@ -228,6 +248,7 @@ nav {
   scroll-snap-type: mandatory;
   align-items: center;
   gap: 10px;
+  padding-top: 10px;
 }
 
 .pic1 {
@@ -259,6 +280,7 @@ nav {
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
   padding-bottom: 10px;
+  padding-left: 20px;
 }
 .pic2 {
   background: url("./pic2.jpg");
@@ -288,6 +310,7 @@ nav {
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
   padding-bottom: 10px;
+  padding-left: 20px;
 }
 .pic3 {
   background: url("./pic3.jpg");
@@ -317,4 +340,65 @@ nav {
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
   padding-bottom: 10px;
+  padding-left: 20px;
+}
+.pic4 {
+  background: url("./last\ movie.webp");
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  align-items: end;
+  padding-left: 80px;
+  padding-bottom: 60px;
+}
+.chategor-3 {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.pic5 {
+  background: url("./morning.webp");
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  align-items: end;
+  padding-left: 80px;
+  padding-bottom: 60px;
+}
+.chategor-4 {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.pic6 {
+  background: url("./football.webp");
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  align-items: end;
+  padding-left: 80px;
+  padding-bottom: 60px;
+}
+.chategor-5 {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 10px;
+  padding-left: 20px;
 }
