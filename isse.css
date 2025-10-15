@@ -1,0 +1,404 @@
+header {
+  width: 1920px;
+  height: 692px;
+}
+nav {
+  font-size: 12px;
+  background-color: rgba(245, 245, 247, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.apple-icon {
+  width: 12px;
+  height: 15px;
+  background: url("./apple\ icon.png");
+}
+.div {
+  font-size: 12px;
+}
+.haih-icon {
+  width: 12px;
+  height: 15px;
+  background: url("./Vector\ \(3\).png");
+}
+.store-icon {
+  width: 12px;
+  height: 15px;
+  background: url("./Vector\ \(4\).png");
+}
+.donat {
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.backround-iph1 {
+  background: url("./iphone.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  justify-items: center;
+  padding-top: 60px;
+}
+.iphone16-title {
+  font-size: 52px;
+  font-weight: 600;
+  color: rgba(245, 245, 247, 1);
+  font-style: Semi bold;
+}
+.hello-title {
+  font-weight: 400;
+  font-size: 24px;
+  justify-content: center;
+  color: rgba(245, 245, 247, 1);
+}
+.learn {
+  background-color: rgba(0, 113, 227, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  width: 123px;
+  height: 44px;
+  gap: 10px;
+  border-radius: 999px;
+  text-align: center;
+  align-content: center;
+}
+.buy-button {
+  width: 68px;
+  height: 44px;
+  border: 2px solid rgba(41, 151, 255, 1);
+  color: rgba(41, 151, 255, 1);
+  font-size: 16px;
+  border-radius: 8989px;
+  text-align: center;
+  align-content: center;
+}
+.buttons {
+  padding: 12px;
+  padding-right: 20px;
+  padding-left: 20px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.iphone-backround2 {
+  background: url("./iphone2.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin-top: 10px;
+  justify-items: center;
+  padding-top: 60px;
+}
+.iphone16_title {
+  font-size: 52px;
+  font-weight: 600;
+  color: rgba(245, 245, 247, 1);
+  font-style: Semi bold;
+}
+.hello_2 {
+  font-weight: 400;
+  font-size: 24px;
+  justify-content: center;
+  color: rgba(245, 245, 247, 1);
+}
+.buttons_2 {
+  padding: 12px;
+  padding-right: 20px;
+  padding-left: 20px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+.learn_2 {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+  font-weight: 400;
+  width: 123px;
+  height: 44px;
+  gap: 10px;
+  border-radius: 999px;
+  text-align: center;
+  align-content: center;
+}
+.buy-button_2 {
+  width: 68px;
+  height: 44px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  border-radius: 8989px;
+  text-align: center;
+  align-content: center;
+}
+.taniltsuulag {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.dual {
+  display: flex;
+  justify-content: center;
+}
+.apple-tom-icon {
+  background: url("./Vector\ \(6\).png");
+  width: 26px;
+  height: 32px;
+}
+.classic {
+  font-size: 24px;
+}
+.air-pod {
+  background: url("./ff948cacd279c7a6da7b42f7259842d3eef7e869.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 962px;
+  height: 580px;
+  position: relative;
+}
+.tsag {
+  background: url("./tsag.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 962px;
+  height: 580px;
+  position: relative;
+}
+.mac {
+  display: flex;
+  background-position: center;
+  background-size: cover;
+  width: 962px;
+  height: 580px;
+}
+.hand {
+  background-position: center;
+  background-size: cover;
+  width: 962px;
+  height: 580px;
+}
+.qq1 {
+  display: flex;
+}
+.pre {
+  display: flex;
+}
+.aa1 {
+  display: flex;
+}
+.tablet {
+  background-position: center;
+  background-size: cover;
+  width: 962px;
+  height: 580px;
+}
+.kart {
+  background-position: center;
+  background-size: cover;
+  width: 962px;
+  height: 580px;
+}
+.gift-back {
+  background: url("./gift\ back.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+  align-content: end;
+  padding-bottom: 120px;
+}
+.gift-title {
+  color: black;
+  font-size: 52px;
+  font-weight: 700;
+}
+.make-title {
+  font-size: 24px;
+  font-weight: 400;
+  color: black;
+  padding-top: 10px;
+}
+.shop-gift {
+  width: 114px;
+  height: 44px;
+  background-color: rgba(0, 113, 227, 1);
+  color: white;
+  font-size: 16px;
+  border-radius: 65656px;
+  text-align: center;
+  align-content: center;
+  margin-top: 20px;
+}
+.scroll {
+  width: 100%;
+  overflow-x: scroll;
+  display: flex;
+  scroll-snap-type: mandatory;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.pic1 {
+  background: url("./pic1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  align-items: end;
+  padding-left: 80px;
+  padding-bottom: 60px;
+  flex-shrink: 0;
+}
+.stream-1 {
+  width: 133px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+  border-radius: 8989px;
+  align-content: center;
+  text-align: center;
+}
+.comedy {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.pic2 {
+  background: url("./pic2.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  align-items: end;
+  padding-left: 80px;
+  padding-bottom: 60px;
+}
+.stream-2 {
+  width: 133px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+  border-radius: 8989px;
+  align-content: center;
+  text-align: center;
+}
+.chategor-1 {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.pic3 {
+  background: url("./pic3.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  object-fit: cover;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  align-items: end;
+  padding-left: 80px;
+  padding-bottom: 60px;
+}
+.stream-3 {
+  width: 133px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(0, 0, 0, 1);
+  border-radius: 8989px;
+  align-content: center;
+  text-align: center;
+}
+.chategor-2 {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.pic4 {
+  background: url("./last\ movie.webp");
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  align-items: end;
+  padding-left: 80px;
+  padding-bottom: 60px;
+}
+.chategor-3 {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.pic5 {
+  background: url("./morning.webp");
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  align-items: end;
+  padding-left: 80px;
+  padding-bottom: 60px;
+}
+.chategor-4 {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+.pic6 {
+  background: url("./football.webp");
+  background-position: center;
+  background-size: cover;
+  width: 1250px;
+  height: 668px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  display: flex;
+  align-items: end;
+  padding-left: 80px;
+  padding-bottom: 60px;
+}
+.chategor-5 {
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
