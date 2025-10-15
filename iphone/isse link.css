@@ -5,41 +5,50 @@ nav {
   display: flex;
   gap: 24px;
   justify-content: center;
+  align-items: center;
+  height: 44px;
 }
 .apple-icon {
   width: 13px;
   height: 16px;
-  /* top: 12px; */
 }
 .deed-tses {
   font-size: 12px;
   font-weight: 400;
   color: black;
-  padding-bottom: 40px;
 }
 .haih-icon {
   width: 13px;
   height: 13px;
 }
-.store {
-  width: 3px;
-  height: 5px;
+.store-icon {
+  width: 13px;
+  height: 15px;
 }
 .tailbar-heseg {
   font-size: 14px;
+  height: 60px;
   font-weight: 400;
   line-height: 20px;
   display: flex;
   justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  align-items: center;
+  opacity: 1;
   box-shadow: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
 }
-.frame {
+.rainbow {
+  width: 100%;
+  height: 75px;
+  background: url("./dolgoin.png");
+  background-position: center;
+  background-size: cover;
+}
+.deed-tailbar {
   display: flex;
+}
+.frame1 {
   position: relative;
-  left: 40px;
-  top: 40px;
+  left: 70px;
 }
 .store-heseg {
   display: flex;
@@ -61,7 +70,8 @@ nav {
 }
 .branduud {
   display: flex;
-  gap: 32px;
+  gap: 40px;
+  padding-top: 40px;
 }
 .apple-pic {
   width: 120%;
@@ -74,4 +84,142 @@ nav {
   font-size: 14px;
   font-weight: 700;
   color: black;
+}
+.jijig-box {
+  height: 100px;
+  width: 226px;
+  display: flex;
+  justify-content: right;
+  gap: 16px;
+}
+.woman {
+  width: 35px;
+  height: 35px;
+  background: url("./woman.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: baseline;
+}
+.holbogdoh-title {
+  font-size: 14px;
+  color: black;
+}
+.holbogdoh-title2 {
+  font-size: 14px;
+  color: blue;
+}
+strong {
+  /* background: linear-gradient(90deg, #0090F7 0%, #BA62FC 50%, #F2416B 100%); */
+  font-size: 24px;
+  font-weight: 700;
+}
+.scrolltoi-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 60px;
+}
+.the-latest {
+  display: flex;
+}
+.latest-title {
+  color: gray;
+  font-size: 24px;
+  font-weight: 700;
+}
+.scroll-brand {
+  display: flex;
+  gap: 20px;
+  scroll-snap-type: mandatory;
+  overflow-x: scroll;
+  align-items: center;
+  border-radius: 8px;
+  scroll-behavior: smooth;
+}
+.iph16 {
+  background: url("iph16pro.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 480px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  border-radius: 17px;
+}
+.apple-title {
+  font-size: 12px;
+  color: rgba(182, 68, 0, 1);
+  font-style: bold;
+  font-weight: 700;
+}
+.iph16pro {
+  color: black;
+  font-size: 26px;
+  font-weight: 700;
+  font-style: bold;
+}
+.une {
+  font-size: 18px;
+  font-weight: 400;
+}
+.watch {
+  background: url("./watch16.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 480px;
+  height: 500px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  border-radius: 17px;
+}
+.ipad {
+  background: url("./ipad.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 480px;
+  height: 500px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  border-radius: 17px;
+}
+.mac {
+  background: url("./mac\ pro.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 480px;
+  height: 500px;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  border-radius: 17px;
+}
+.person {
+  display: flex;
+}
+.person-pic {
+  background: url("./person.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 191px;
+  height: 34px;
+}
+.scroll-brand1 {
+}
+.backround {
+  background: url("./chihevch.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+}
+.make {
+  font-weight: 700;
+  font-size: 26px;
+  color: black;
+  position: relative;
+  top: 53px;
+  left: 30px;
+  display: flex;
 }
