@@ -1,5 +1,7 @@
-header {
-  height: 100vh;
+.header{
+  width: 100vh;
+  max-width: 1920px;
+  min-width: 1440px;
 }
 nav {
   display: flex;
@@ -49,6 +51,8 @@ nav {
 .frame1 {
   position: relative;
   left: 70px;
+  display: flex;
+  flex-direction: column;
 }
 .store-heseg {
   display: flex;
@@ -60,7 +64,6 @@ nav {
   font-size: 44px;
   font-weight: 700;
   line-height: 52px;
-  background: linear-gradient(90deg, #0090f7 0%, #ba62fc 50%, #f2416b 100%);
 }
 .gift-title {
   font-size: 44px;
@@ -72,6 +75,9 @@ nav {
   display: flex;
   gap: 60px;
   padding-top: 60px;
+  overflow: scroll;
+  scrollbar-width: smooth;
+  padding-bottom: 10px;
 }
 .apple-pic {
   width: 120%;
@@ -84,30 +90,39 @@ nav {
   font-size: 14px;
   font-weight: 700;
   color: black;
+  padding-left: 15px;
 }
 .jijig-box {
   height: 100px;
-  width: 226px;
+  width: 216px;
   display: flex;
   justify-content: right;
-  gap: 16px;
+  position: relative;
+  left: 300px;
 }
 .woman {
-  width: 35px;
-  height: 35px;
+  width: 55px;
+  height: 55px;
   background: url("./woman.jpg");
   background-position: center;
   background-size: cover;
-  display: flex;
-  justify-content: baseline;
+  position: relative;
+  right: 90px;
+  bottom: 70px;
 }
 .holbogdoh-title {
   font-size: 14px;
   color: black;
+  position: relative;
+  bottom: 60px;
+  right: 50px;
 }
 .holbogdoh-title2 {
   font-size: 14px;
   color: blue;
+  position: relative;
+  top: 30px;
+  right: 50px;
 }
 strong {
   font-size: 24px;
@@ -149,6 +164,8 @@ strong{
   scroll-snap-align: center;
   flex-shrink: 0;
   border-radius: 17px;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 .person{
   display: flex;
@@ -181,6 +198,8 @@ strong{
   scroll-snap-align: center;
   flex-shrink: 0;
   border-radius: 17px;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 .ipad {
   background: url("./ipad.jpg");
@@ -191,6 +210,8 @@ strong{
   scroll-snap-align: center;
   flex-shrink: 0;
   border-radius: 17px;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 .mac {
   background: url("./mac\ pro.jpg");
@@ -201,6 +222,8 @@ strong{
   scroll-snap-align: center;
   flex-shrink: 0;
   border-radius: 17px;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 .person {
   display: flex;
@@ -239,14 +262,21 @@ box-shadow: 2px 4px 12px 0px #00000014;
   width: 230px;
 height: 230px;
 position: relative;
-top: 71px;
-left: 10px;
+top: 50px;
+left: 30px;
 }
-
 .model-dood{
   position: relative;
-  top: 159px;
-  left: 28px;
+  top: 50px;
+  left: 15px;
+  width: 257px;
+height: 109px;
+border-radius: 2px solid black;
+}
+.model-dood1{
+  position: relative;
+  top: 100px;
+  left: 15px;
   width: 257px;
 height: 109px;
 border-radius: 2px solid black;
@@ -262,4 +292,373 @@ border-radius: 2px solid black;
   width: 197px;
 height: 66px;
 flex-flow: wrap;
+}
+.free{
+  color: #B64400;
+  font-size: 12px;
+ font-weight: 700;
+  display: flex;
+}
+.ner{
+  font: 18px;
+  color: black;
+  font-weight: 700;
+  padding-top: 5px;
+}
+.une{
+  font-size: 14px;
+  position: relative;
+  top: 50px;
+}
+.ungiin-songolt{
+  width: 253px;
+height: 58px;
+opacity: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 30px;
+gap: 10px;
+}
+.ungu1{
+  background: url("./ungu1.jpg");
+   background-position: center;
+   background-size: cover;
+   opacity: 1;
+  width: 12px;
+height: 12px;
+}
+.ungu2{
+   background: url("./ungu2.jpg");
+   background-position: center;
+   background-size: cover;
+   opacity: 1;
+  width: 12px;
+height: 12px;
+}
+.ungu3{ background: url("./ungu3.jpg");
+   background-position: center;
+   background-size: cover;
+   opacity: 1;
+  width: 12px;
+height: 12px;}
+.ungu4{
+   background: url("./ungu4.jpg");
+   background-position: center;
+   background-size: cover;
+   opacity: 1;
+  width: 12px;
+height: 12px;
+}
+.ungu5{ 
+  background: url("./ungu5.jpg");
+   background-position: center;
+   background-size: cover;
+   opacity: 1;
+  width: 12px;
+height: 12px;
+}
+.only-title{
+  display: flex;
+  position: relative;
+  top: 30px;
+}
+.only{
+font-size: 24px;
+font-weight: 700;
+}
+.with{
+  color: rgba(110, 110, 115, 1);
+font-size: 24px;
+font-weight:  700px;
+}
+.box{
+  display: flex;
+  position: relative;
+  top: 30px;
+  margin-left: 0;
+}
+.box1{
+  width: 480px;
+height: 500px;
+box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+background:url("./l.jpg");
+background-position: center;
+background-size: cover;
+padding-top: 50px;
+padding-left: 30px;
+font-size: 26px;
+color: black;
+font-weight: 700;
+border-radius: 18px;
+}
+.jijig-box{
+  display: flex;
+  width: 313px;
+height: 240px;
+border-radius: 18px;
+background: rgba(255, 255, 255, 1);
+box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+font-size: 22px;
+font-weight: 700;
+text-align: center;
+align-items: center;
+position: relative;
+left: 150px;
+margin-bottom: 10px;
+margin-right: 0;
+}
+.box2{
+  background: url("./2hand.jpg");
+   background-position: center;
+  background-size: cover;
+  width: 480px;
+height: 500px;
+margin-right: 20px;
+border-radius: 18px;
+padding-top: 20px;
+padding-left: 20px;
+box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+.box22{
+  font-size:26px;
+color: black;
+font-weight: 700;
+padding-top: 20px;
+}
+.box3{
+  background-image: url("./indian\ woman.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 480px;
+height: 500px;
+padding-top: 20px;
+padding-left: 20px;
+border-radius: 18px;
+box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+.box33{
+  font-size:26px;
+color: black;
+font-weight: 700;
+padding-top: 20px;
+}
+.mini{
+  font-size: 12px;
+  color: rgba(110, 110, 115, 1);
+  font-weight: 700;
+}
+.fav1{
+  background: url("./pic1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 400px;
+height: 500px;
+font-size: 26px;
+font-weight: 700;
+border-radius: 18px;
+box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+text-align: center;
+position: relative;
+top: 30px;
+}
+.fav{
+  display: flex;
+  gap: 20px;
+}
+.fav2{
+border-radius: 18px;
+box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+.fav3{
+border-radius: 18px;
+box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+.fav4{
+border-radius: 18px;
+box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+.fav5{
+border-radius: 18px;
+box-shadow: 2px 4px 12px 0px rgba(0, 0, 0, 0.08);
+}
+.pic2{
+  background: url("./pic1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 230px;
+  height: 230px;
+}
+.pic3{
+  background: url("./pic3.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 230px;
+  height: 230px;
+}
+.pic4{
+  background: url("./pic4.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 230px;
+  height: 230px;
+}
+.pic5{
+  background: url("./pic5.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 230px;
+  height: 230px;
+}
+.ungiin-songolt1{
+  width: 253px;
+height: 58px;
+opacity: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+top: 30px;
+gap: 10px;
+}
+.ungu-1{
+background: url("./sahr.jpg");
+   background-position: center;
+   background-size: cover;
+   opacity: 1;
+  width: 12px;
+height: 12px;
+}
+.ungu-2{
+background: url("./blu.jpg");
+   background-position: center;
+   background-size: cover;
+   opacity: 1;
+  width: 12px;
+height: 12px;
+}
+.ungu-3{
+background: url("./brom.jpg");
+   background-position: center;
+   background-size: cover;
+   opacity: 1;
+  width: 12px;
+height: 12px;
+}
+.ungu-4{
+background: url("./zel.jpg");
+   background-position: center;
+   background-size: cover;
+   opacity: 1;
+  width: 12px;
+height: 12px;
+}
+.ungu-5{
+background: url("./as.jpg");
+   background-position: center;
+   background-size: cover;
+   opacity: 1;
+  width: 12px;
+height: 12px;
+}
+.ungu-6{
+background: url("./ungu5.jpg");
+   background-position: center;
+   background-size: cover;
+   opacity: 1;
+  width: 12px;
+height: 12px;
+}
+.fav-dood{
+  padding-top: 40px;
+  padding-left: 20px;
+}
+.free-1{
+  font-weight: 700;
+padding-bottom: 10px;
+color: rgba(182, 68, 0, 1);
+padding-top: 10px;
+font-size: 12px;
+}
+.ner-1{
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
+.une-1{
+  padding-top: 30px;
+}
+/* FOR phone */
+@media screen and (max-width:425px) {
+  .header{
+    height: 100vh;
+    width: 425px;
+    display: flex;
+    justify-content: baseline;
+    overflow: hidden;
+  }
+  .apple-icon{
+   width: 29px;
+    height: 28px;
+    padding-left: 80px;
+    justify-content: center;
+  }
+  .haih-icon{
+ width: 29px;
+    height: 28px;
+  }
+  .store-icon{
+ width: 29px;
+    height: 28px;
+    padding-left: 0;
+  }
+ .deed-tses{
+  font-size: 0;
+ }
+ .deed-tailbar{
+  justify-content: center;
+  text-align: center;
+  font-size: 110px;
+ }
+ .store-heseg{
+  display: flex;
+  flex-direction: row;
+ }
+  .store-title{
+    color: black;
+    font-size: 18px;
+    background-color: none;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+  }
+ .gift-title{
+  font-size: 18px;
+  color: black;
+  display: flex;
+ }
+   .rainbow{
+    width: 425px;
+height: 15px;
+   }
+  .iph16{
+    height: 200px;
+    width: 250px;
+  }
+  .watch{
+    height: 200px;
+    width: 250px;
+  }
+  .tom{
+    position: relative;
+    background-color: none;
+  }
+  .branduud{
+    width: 100vh;
+    height: 75px;
+    padding: 0;
+    overflow: hidden;
+    overflow: scroll; 
+}
 }

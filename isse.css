@@ -1,5 +1,4 @@
 header {
-  width: 1920px;
   height: 692px;
 }
 nav {
@@ -13,7 +12,8 @@ nav {
 .apple-icon {
   width: 12px;
   height: 15px;
-  background: url("./apple\ icon.png");
+  background-position: center;
+  background-size: cover;
 }
 .div {
   font-size: 12px;
@@ -21,12 +21,16 @@ nav {
 .haih-icon {
   width: 12px;
   height: 15px;
-  background: url("./Vector\ \(3\).png");
+  background: url("./Vector\ \(1\).png");
+   background-position: center;
+  background-size: cover;
 }
 .store-icon {
   width: 12px;
   height: 15px;
-  background: url("./Vector\ \(4\).png");
+  background: url("./Vector\ \(2\).png");
+   background-position: center;
+  background-size: cover;
 }
 .donat {
   background-color: rgba(255, 255, 255, 1);
@@ -66,6 +70,18 @@ nav {
   width: 123px;
   height: 44px;
   gap: 10px;
+  border-radius: 999px;
+  text-align: center;
+  align-content: center;
+}
+.buy{
+    color: rgba(0, 113, 227, 1);
+  font-size: 16px;
+  font-weight: 400;
+  width: 123px;
+  height: 44px;
+  gap: 10px;
+  border: 2px solid rgba(0, 113, 227, 1);
   border-radius: 999px;
   text-align: center;
   align-content: center;
@@ -150,14 +166,55 @@ nav {
 .dual {
   display: flex;
   justify-content: center;
+  gap: 10px;
+  position: relative;
+  top: 50px;
 }
 .apple-tom-icon {
   background: url("./Vector\ \(6\).png");
   width: 26px;
   height: 32px;
 }
+.songoltuudiin-tom-title{
+  font-size: 32px;
+  font-weight: 700;
+}
+.cu{
+position: relative;
+top: 340px;
+justify-content: center;
+text-align: center;
+}
+.songoltuudiin-tom-title-1{
+   font-size: 32px;
+  font-weight: 700;
+  color: white;
+}
+.classic-1{
+   font-size: 24px;
+  color: white;
+}
 .classic {
   font-size: 24px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 30px;
+  top: 60px;
+}
+.learn-buy-1{
+  position: relative;
+  top: 380px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.learn-buy{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 80px;
 }
 .air-pod {
   background: url("./ff948cacd279c7a6da7b42f7259842d3eef7e869.jpg");
@@ -198,12 +255,34 @@ nav {
   display: flex;
 }
 .tablet {
+  background: url("./tablet.jpg");
   background-position: center;
   background-size: cover;
   width: 962px;
   height: 580px;
 }
+.ipada{
+  position: relative;
+  top: 30px;
+  left: 100px;
+}
+.ipad-title{
+  height: 33px;
+  width: 430px;
+  background: url("./ipad\ air.png");
+  background-position: center;
+  background-size: cover;
+}
+.neg{
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+}
+.a{
+  display: flex;
+}
 .kart {
+  background: url("./kart.jpg");
   background-position: center;
   background-size: cover;
   width: 962px;
@@ -252,7 +331,7 @@ nav {
 }
 
 .pic1 {
-  background: url("./pic1.jpg");
+  background: url("./fuck\ you.jpg");
   background-position: center;
   background-size: cover;
   width: 1250px;
@@ -283,7 +362,7 @@ nav {
   padding-left: 20px;
 }
 .pic2 {
-  background: url("./pic2.jpg");
+  background: url("./bullshit.jpg");
   background-position: center;
   background-size: cover;
   width: 1250px;
@@ -313,7 +392,7 @@ nav {
   padding-left: 20px;
 }
 .pic3 {
-  background: url("./pic3.jpg");
+  background: url("./witch.jpg");
   background-position: center;
   background-size: cover;
   width: 1250px;
@@ -401,4 +480,314 @@ nav {
   color: rgba(255, 255, 255, 1);
   padding-bottom: 10px;
   padding-left: 20px;
+}
+.clark{
+  display: flex;
+  justify-content: center;
+  gap: 13px;
+height: 8px;
+margin: 10px;
+}
+.dugui{
+  width: 8px;
+height: 8px;
+border-radius: 50%;
+background: #0000006B;
+}
+/* FOR PHONE */
+@media screen and (max-width:435px) and (min-width:320px) {
+body{
+  display: flex;
+  flex-direction: column;
+}
+  nav{
+  gap: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+.div{
+  font-size: 0;
+}
+.apple-icon{
+  height: 40p;
+  width: 40px;
+}
+.donat{
+  width: 390px;
+height: 73px;
+display: flex;
+}
+.backround-iph1{
+  background: url("./utas\ pro.jpg");  
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  width: 390px;
+  height: 500px;
+}
+.iphone-backround2{
+  background: url("./bca14fea5cc383f10eb575ae23034d12bd94613d.jpg");
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+  width:390px;
+  height: 500px;
+}
+.gift-back{
+  display: none;
+}
+.aa1{
+  background-position: center;
+  background-size: cover;
+}
+
+.tses{
+  background: url("./globalnav-menutrigger-bread-top.png");
+  background: url("./globalnav-menutrigger-bread-top\ \(1\).png");
+  width: 10px;
+  height: 5px;
+}
+.buttons{
+  position: relative;
+  top: 310px;
+}
+.iphone16-title{
+  position: relative;
+  top: 300px;
+}
+.hello-title{
+  position: relative;
+  top: 305px;
+}
+.tablet{
+    background: url("./tablet.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 390px;
+  height: 500px;
+  flex-shrink: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.hand{
+  width: 390px;
+  height: 500px;
+  background-position: center;
+}
+
+.tsag{
+  background: url("./a6.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 390px;
+  height: 500px;
+  margin-bottom: 10px;
+}
+.air-pod{
+  background-position: center;
+  background-size: cover;
+  background: url("./a3.png");
+width: 390px;
+height: 500px;
+position: relative;
+}
+.aa1{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.pre{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.kart{
+  width: 390px;
+height: 500px;
+ background-position: center;
+  background-size: cover;
+  background: url("./a5.jpg");
+}
+.mac{
+width: 408px;
+height: 500px;
+ background-position: center;
+  background-size: cover;
+  background: url("./a2.png");
+  margin-top: 10px;
+}
+.scroll{
+  overflow-x: scroll;
+  display: flex;
+  scroll-snap-type: mandatory;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+.pic1{
+  background: url("./kino1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 274px;
+height: 495px;
+}
+.pic2{
+   background: url("./kino2.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 274px;
+height: 495px;
+}
+.pic3{
+   background: url("./kino3.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 274px;
+height: 495px;
+}
+.pic4{
+   background: url("./kino4.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 274px;
+height: 495px;
+}
+.pic5{
+   background: url("./kino5.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 274px;
+height: 495px;
+}
+.pic6{
+   background: url("./kino6.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 274px;
+height: 495px;
+}
+.qq1{
+  display: flex;
+  flex-direction: column;
+}
+.neg{
+display: flex;
+}
+}
+
+/* FOR TABLET */
+@media screen and (max-width:1024px) and (min-width:768px)
+{
+  nav{
+    display: flex;
+    justify-content: center;
+  }
+  .backround-iph1{
+    background: url("./lalar.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 1068px;
+    height: 650px;
+  }
+  .iphone-backround2{
+     background: url("./lala.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 1068px;
+    height: 650px;
+    margin-bottom: 10px;
+  }
+  .gift-back{
+ background: url("./haha].jpg");
+  background-position: center;
+  background-size: cover;
+  width: 1068px;
+  height: 650px;
+  margin-bottom: 10px;
+  }
+  .donat{
+height: 48px;
+  }
+  html{
+    width: 1024px;
+  }
+  .tsag{
+    width: 516px;
+height: 490px;
+margin-right: 10px;
+margin-left: 10px;
+  }
+  .air-pod{
+    width: 516px;
+height: 490px;
+margin-right: 10px;
+margin-left: 10px;
+  }
+  .hand{
+    width: 516px;
+height: 490px;
+margin-left: 10px;
+margin-right: 10px;
+  }
+  .mac{
+    width: 516px;
+height: 490px;
+margin-left: 10px;
+margin-right: 10px;
+  }
+  .tablet{
+    width: 50%;
+height: 490px;
+margin-right: 10px;
+margin-left: 10px;
+  }
+  .kart{
+    background:url("./a5.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+height: 490px;
+margin-left: 10px;
+margin-right: 10px;
+  }
+  .aa1{
+    margin-top: 10px;
+  }
+  .pic1{
+     background:url("./asd.jpg");
+    background-position: center;
+    background-size: cover;
+     width: 689px;
+height: 368px;
+  }
+  .pic2{
+    background:url("./asda.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 689px;
+height: 368px;
+  }
+  .pic3{
+     width: 689px;
+height: 368px;
+  }
+  .pic4{
+     width: 689px;
+height: 368px;
+  }
+  .pic5{
+     width: 689px;
+height: 368px;
+  }
+  .pic6{
+     width: 689px;
+height: 368px;
+  }
+  .learn-buy-1{
+    padding-bottom: 20px;
+  }
+  .cu{
+    padding-bottom: 2px;
+    margin-top: 2px;
+  }
 }
