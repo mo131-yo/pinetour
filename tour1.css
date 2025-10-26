@@ -427,7 +427,7 @@
   height: 15;
   gap: 12px;
 }
-.pay {
+.payback{
   width: 100%;
   height: 1120px;
   background: url("./background.png");
@@ -651,7 +651,7 @@
 .price3 {
   background-color: white;
   border-radius: 30px;
-  width: 384px;
+  width:30%;
   height: 527px;
   border-radius: 40px;
 }
@@ -813,4 +813,46 @@
 }
 .huree-5 {
   position: relative;
+}
+/* FOR PHONE */
+@media screen and (max-width:435px) and (min-width:320px){
+.bairlal{
+  width: 1020px;
+}
+.daguul{
+   width: 1020px;
+}
+.hoyr-garchig{
+  width:920px;
+}
+.uniin-songolt{
+  width: 1020px;
+}
+.payback{
+  display: flex;
+  flex-flow: wrap;
+}
+.price3{
+  display: flex;
+  flex-flow: wrap;
+}
+.price1{
+  width: 30%;
+   display: flex;
+  flex-flow: wrap;
+}
+.price2{
+  width: 30%;
+   display: flex;
+  flex-flow: wrap;
+}
+.button{
+  width: 90%;
+}
+.button1{
+  width: 90%;
+}
+.button2{
+  width: 90%;
+}
 }
