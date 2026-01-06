@@ -1594,6 +1594,9 @@ o .bairlal {
   height: 48px;
   border-radius: 9999px;
 }
+
+
+/* 
 .dood-tal {
   background-color: aqua;
   width: 1440;
@@ -1627,7 +1630,7 @@ o .bairlal {
   justify-content: space-around;
   align-items: center;
   color: rgb(165, 29, 140);
-}
+} */
 .ub-icons {
   position: absolute;
   width: 245px;
@@ -1688,4 +1691,31 @@ o .bairlal {
 .bairlal{
   width: 420px;
 }
+}
+@media screen and (max-width:1024px) {
+  .uniin-songolt {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .price1, .price2, .price3 {
+    width: 45%;
+  }
+}
+@media screen and (max-width:430px) {
+  .uniin-songolt {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price1, .price2, .price3 {
+    width: 90%;
+    height: auto;
+  }
+
+  .dood-tal {
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+  }
 }
