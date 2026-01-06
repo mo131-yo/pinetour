@@ -1135,6 +1135,33 @@ o .bairlal {
 .huree-2 {
   display: flex;
 }
+
+.sambar {
+  position: relative;
+}
+
+.a:hover ~ .ub-icons {
+  display: block;
+}
+
+.huree-2 {
+  position: relative;
+}
+.huree-2:hover ~ .ail {
+  display: block;
+}
+.huree-3:hover ~ .blue-icon {
+  display: block;
+}
+.huree-4:hover ~ .blue-icon {
+  display: block;
+}
+.huree-5:hover ~ .nuur-icon {
+  display: block;
+}
+.huree-5 {
+  position: relative;
+}
 .a-2 {
   display: flex;
   justify-content: space-between;
