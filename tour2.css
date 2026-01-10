@@ -1672,7 +1672,25 @@ o .bairlal {
   width: 24px;
   height: 24px;
 }
-.ail {
+/* .ail {
+  position: absolute;
+  width: 245px;
+  height: 245px;
+  display: none;
+  left: 623px;
+  top: 0px;
+  border-radius: 999px;
+} */
+.frame{
+width: 245px;
+height: 245px;
+top: -46px;
+left: 163px;
+opacity: 1;
+border-radius: 1000px;
+
+}
+.infinity{
   position: absolute;
   width: 245px;
   height: 245px;
@@ -1696,15 +1714,26 @@ o .bairlal {
 .sambar {
   position: relative;
 }
-
 .a:hover ~ .ub-icons {
   display: block;
 }
 
-.huree-2 {
+.huree-3 {
   position: relative;
 }
-.huree-2:hover ~ .ail {
+.huree-3:hover ~ .infinity {
+  display: block;
+}
+.a-2{
+  position: relative;
+}
+.a-2:hover ~ .frame{
+  display: block;
+}
+.a-4{
+  position: relative;
+}
+.a-4:hover ~ .ail{
   display: block;
 }
 .huree-5:hover ~ .nuur-icon {
@@ -1713,13 +1742,84 @@ o .bairlal {
 .huree-5 {
   position: relative;
 }
-/* FOR PHONE */
+
+/* FOR PHONE
 @media screen and (max-width:435px) and (min-width:320px){
 .bairlal{
   width: 420px;
 }
 }
 @media screen and (max-width:1024px) {
+  .uniin-songolt {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .price1, .price2, .price3 {
+    width: 45%;
+  }
+}
+@media screen and (max-width:430px) {
+  .uniin-songolt {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .price1, .price2, .price3 {
+    width: 90%;
+    height: auto;
+  }
+
+  .dood-tal {
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+  }
+} */
+/* FOR PHONE */
+@media screen and (max-width:435px) and (min-width:320px){
+.bairlal{
+  width: 1020px;
+}
+.daguul{
+   width: 1020px;
+}
+.hoyr-garchig{
+  width:920px;
+}
+.uniin-songolt{
+  width: 1020px;
+}
+.payback{
+  display: flex;
+  flex-flow: wrap;
+}
+.price3{
+  display: flex;
+  flex-flow: wrap;
+}
+.price1{
+  width: 30%;
+   display: flex;
+  flex-flow: wrap;
+}
+.price2{
+  width: 30%;
+   display: flex;
+  flex-flow: wrap;
+}
+.button{
+  width: 90%;
+}
+.button1{
+  width: 90%;
+}
+.button2{
+  width: 90%;
+}
+}
+
+@media screen and (max-width:1440px) {
   .uniin-songolt {
     flex-wrap: wrap;
     justify-content: center;
