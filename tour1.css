@@ -917,44 +917,14 @@ rotate: 5deg
   color: white;
 }
 
-/* button өөрөө hover */
 .button:hover,
 .button1:hover,
 .button2:hover {
   background: #4f5cc0;
 }
 /* FOR PHONE */
-@media screen and (max-width:435px) and (min-width:320px){
-.bairlal{
-  width: 1020px;
-}
-.daguul{
-   width: 1020px;
-}
-.hoyr-garchig{
-  width:920px;
-}
-.uniin-songolt{
-  width: 1020px;
-}
-.payback{
-  display: flex;
-  flex-flow: wrap;
-}
-.price3{
-  display: flex;
-  flex-flow: wrap;
-}
-.price1{
-  width: 30%;
-   display: flex;
-  flex-flow: wrap;
-}
-.price2{
-  width: 30%;
-   display: flex;
-  flex-flow: wrap;
-}
+@media screen and (max-width:1440px) and (min-width:1024px){
+} */
 .button{
   width: 90%;
 }
@@ -964,32 +934,4 @@ rotate: 5deg
 .button2{
   width: 90%;
 }
-}
 
-@media screen and (max-width:1440px) {
-  .uniin-songolt {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .price1, .price2, .price3 {
-    width: 45%;
-  }
-}
-@media screen and (max-width:430px) {
-  .uniin-songolt {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .price1, .price2, .price3 {
-    width: 90%;
-    height: auto;
-  }
-
-  .dood-tal {
-    flex-direction: column;
-    gap: 20px;
-    padding: 30px;
-  }
-}
